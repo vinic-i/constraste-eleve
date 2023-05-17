@@ -1,0 +1,42 @@
+/* JOUNE-NOIR */
+body[data-ac-activated="joune-noir"] h2 {
+    color: white !important;
+}
+
+body[data-ac-activated="joune-noir"] p {
+    color: white !important;
+}
+
+body[data-ac-activated="joune-noir"] .benefits-cta {
+    background-color: yellow;
+    color: black !important;
+}
+
+body[data-ac-activated="joune-noir"] .benefits-cta:hover {
+    background-color: white;
+}
+
+
+/* BLANC-BLEU */
+
+body[data-ac-activated="blanc-bleu"] h2 {
+    color: black !important;
+}
+
+body[data-ac-activated="blanc-bleu"] p {
+    color: black !important;
+}
+
+body[data-ac-activated="blanc-bleu"] .benefits-cta {
+    background-color: darkblue;
+    color: white !important;
+}
+
+body[data-ac-activated="blanc-bleu"] .benefits-cta:hover {
+    background-color: darkblue;
+    color: white !important;
+}
+
+body[data-ac-activated="blanc-bleu"] .benefits {
+    border: 8px solid black;
+}
