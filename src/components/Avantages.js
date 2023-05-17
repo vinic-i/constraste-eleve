@@ -17,37 +17,37 @@ const Avantages = ({ contrasteEleve }) => {
     console.log(contrasteEleve)
 
     return (
-        <div class="benefits">
-            <h2 class="title">
+        <div className="benefits">
+            <h2 className="title">
                 Les avantages Mirage</h2>
-            <div class="benefitsList">
-                <div class="benefit">
+            <div className="benefitsList">
+                <div className="benefit">
                     <img src={!contrasteEleve ? Img1 : Img1Ac} alt=""></img>
                     <p>Proclamé numéro 1 en qualité par les détaillants de recouvrement de plancher nord-américains</p>
                 </div>
-                <div class="benefit">
+                <div className="benefit">
                     <img src={!contrasteEleve ? Img2 : Img2Ac} alt=""></img>
                     <p> La meilleure résistance à l'usure dans l'industrie du plancher de bois franc</p>
                 </div>
-                <div class="benefit">
+                <div className="benefit">
                     <img src={!contrasteEleve ? Img3 : Img3Ac} alt=""></img>
                     <p>Fini hypoallergénique pour un environnement sain</p>
                 </div>
-                <div class="benefit">
+                <div className="benefit">
                     <img src={!contrasteEleve ? Img4 : Img4Ac} alt=""></img>
                     <p>La plus grande combinaison de couleurs, largeurs, essences et lustres</p>
                 </div>
-                <div class="benefit">
+                <div className="benefit">
                     <img src={!contrasteEleve ? Img5 : Img5Ac} alt=""></img>
                     <p> Le meilleur choix pour l'environnement </p>
                 </div>
-                <div class="benefit">
+                <div className="benefit">
                     <img src={!contrasteEleve ? Img6 : Img6Ac} alt=""></img>
                     <p>Fièrement Québécois</p>
                 </div>
             </div>
-            <a class="benefits-cta" href="https://www.planchersmirage.com/fr/pourquoi-mirage/la-qualite-mirage/">
-                En savoir plus <img class="arrow-icon" src="https://media.planchersmirage.com/theme/_common/images/arrow-right/738ce20bf417ea9f848bb445a82fefc22cbbc8c5/arrow-right.png" srcset="https://media.planchersmirage.com/theme/_common/images/arrow-right/396d24d16bbe72c1f616ec5c24c7db7dd843db82/arrow-right.svg" alt=""></img>
+            <a className="benefits-cta" href="https://www.planchersmirage.com/fr/pourquoi-mirage/la-qualite-mirage/">
+                En savoir plus <img className="arrow-icon" src="https://media.planchersmirage.com/theme/_common/images/arrow-right/738ce20bf417ea9f848bb445a82fefc22cbbc8c5/arrow-right.png" alt=""></img>
             </a>
         </div>
     )

@@ -3,34 +3,52 @@ import './ContrasteEleve.css'
 
 const ContrasteEleve = ({ hangleContrasteEleve }) => {
   const noContraste = () => {
-    document.body.classList.remove('bg-white');
+    document.body.className = '';
     document.body.classList.remove('bg-black');
     document.body.removeAttribute('data-ac-activated');
     hangleContrasteEleve(false)
   }
   const setJouneNoir = () => {
-    document.body.classList.remove('bg-white');
+    document.body.className = '';
     document.body.classList.add('bg-black');
     document.body.setAttribute('data-ac-activated', 'joune-noir');
     hangleContrasteEleve(true)
   }
   const setBlancBleu = () => {
-    document.body.classList.remove('bg-black');
+    document.body.className = '';
     document.body.classList.add('bg-white');
     document.body.setAttribute('data-ac-activated', 'blanc-bleu');
+    hangleContrasteEleve(true)
+  }
+  const setJouneBlue = () => {
+    document.body.className = '';
+    document.body.classList.add('bg-blue');
+    document.body.setAttribute('data-ac-activated', 'joune-bleu');
+    hangleContrasteEleve(true)
+  }
+  const setBlueNoir = () => {
+    document.body.className = '';
+    document.body.classList.add('bg-black');
+    document.body.setAttribute('data-ac-activated', 'bleu-noir');
     hangleContrasteEleve(true)
   }
   return (
     <div className='contrasteContainer'>
       <button
         onClick={noContraste}
-        className='blancBleu grow visible'>Sem</button>
+        className='grow visible'>N</button>
       <button
         onClick={setJouneNoir}
-        className='jouneNoir grow'>Op 1</button>
+        className='jouneNoir grow'>A</button>
       <button
         onClick={setBlancBleu}
-        className='blancBleu grow'>Op 2</button>
+        className='blancBleu grow'>A</button>
+        <button
+        onClick={setJouneBlue}
+        className='jouneBleu grow'>A</button>
+        <button
+        onClick={setBlueNoir}
+        className='bleuNoir grow'>A</button>
     </div>
   )
 }

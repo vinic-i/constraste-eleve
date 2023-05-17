@@ -1,9 +1,10 @@
 .contrasteContainer {
     padding: 5px;
     border: 1px solid black;
+    background-color: white;
     width: 50px;
     height: 50px;
-    transition: 0.5s;
+    transition: 0.1s;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -14,36 +15,37 @@
 }
 
 .contrasteContainer:hover {
-    width: 200px;
-    transition-delay: 1s;
-    overflow-x: hidden;
+    width: 260px;
+    transition-delay: 0.1s;
 }
-
 
 .contrasteContainer button {
     visibility: hidden;
     opacity: 0;
-    transition: 0.1s;
     display: none;
-    width: 45px;
+    height: 38px;
+    width: 38px;
 }
 
 .contrasteContainer:hover button {
+    transition-delay: 0.1s;
     visibility: visible;
     opacity: 1;
-    transition-delay: 0.1s;
     display: block;
 }
 
-.contrasteContainer .visible{
+.contrasteContainer .visible {
     visibility: visible !important;
     opacity: 1;
     display: block;
+    color: red;
+    background-color: white;
 }
 
 button {
-    border: 1px solid black;
     border-radius: 100%;
+    border: 1px solid black;
+    font-size: larger;
 }
 
 .jouneNoir {
@@ -54,6 +56,16 @@ button {
 .blancBleu {
     background: white;
     color: darkblue;
+}
+
+.jouneBleu {
+    background-color: #043e5f;
+    color: yellow;
+}
+
+.bleuNoir {
+    background-color: black;
+    color: #00f3f3;
 }
 
 .grow {
@@ -70,4 +82,38 @@ button {
 
 .bg-black {
     background-color: black;
+}
+
+.bg-blue {
+    background-color: #043e5f;
+}
+
+/* Alto contraste */
+
+body[data-ac-activated="joune-noir"] .contrasteContainer {
+    border: 1px solid white;
+    background-color: black;
+}
+
+body[data-ac-activated="joune-noir"] .contrasteContainer button {
+    border: 1px solid white;
+}
+
+body[data-ac-activated="blanc-bleu"] .contrasteContainer {
+    border: 1px solid black;
+    background-color: white;
+}
+
+body[data-ac-activated="joune-bleu"] .contrasteContainer {
+    border: 1px solid white;
+    background-color: #043e5f;
+}
+
+body[data-ac-activated="bleu-noir"] .contrasteContainer {
+    border: 1px solid white;
+    background-color: black;
+}
+
+body[data-ac-activated="bleu-noir"] .contrasteContainer button {
+    border: 1px solid white;
 }

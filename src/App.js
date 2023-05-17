@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Avantages from './components/Avantages';
 import ContrasteEleve from './components/ContrasteEleve';
 import { useState } from 'react';
+import Footer from './components/Footer';
 
 function App() {
   const [contrasteEleve, setContrasteEleve] = useState(false)
@@ -12,11 +13,16 @@ function App() {
     setContrasteEleve(v)
   }
   return (
-    <div className='container'>
-      {/* <Header /> */}
-      <Avantages contrasteEleve={contrasteEleve}></Avantages>
-      <ContrasteEleve hangleContrasteEleve={handleContrasteEleve} />
-    </div>
+    <>
+      <div className='main'>
+        <div className="container">
+          {/* <Header /> */}
+          <Avantages contrasteEleve={contrasteEleve} />
+          <ContrasteEleve hangleContrasteEleve={handleContrasteEleve} />
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 }
 
