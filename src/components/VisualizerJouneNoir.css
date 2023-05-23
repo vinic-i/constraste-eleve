@@ -1,0 +1,13 @@
+/* JOUNE-NOIR */
+
+body[data-ac-activated="joune-noir"] .visualizer h2 {
+    color: white;
+}
+
+body[data-ac-activated="joune-noir"] .visualizer span {
+    color: white;
+}
+
+body[data-ac-activated="joune-noir"] .visualizer-subtitle {
+    color: white;
+}

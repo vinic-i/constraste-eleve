@@ -1,0 +1,13 @@
+/* blanc-bleu */
+
+body[data-ac-activated="blanc-bleu"] .visualizer h2 {
+    color: black !important;
+}
+
+body[data-ac-activated="blanc-bleu"] .visualizer span {
+    color: black;
+}
+
+body[data-ac-activated="blanc-bleu"] .visualizer-subtitle {
+    color: black;
+}

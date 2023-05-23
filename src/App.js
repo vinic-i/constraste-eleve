@@ -6,6 +6,7 @@ import Avantages from './components/Avantages';
 import ContrasteEleve from './components/ContrasteEleve';
 import { useState } from 'react';
 import Footer from './components/Footer';
+import Visualizer from './components/Visualizer';
 
 function App() {
   const [contrasteEleve, setContrasteEleve] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <div className='main'>
         <div className="container">
           {/* <Header /> */}
+          <Visualizer contrasteEleve={contrasteEleve} />
           <Avantages contrasteEleve={contrasteEleve} />
           <ContrasteEleve hangleContrasteEleve={handleContrasteEleve} />
         </div>

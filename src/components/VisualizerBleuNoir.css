@@ -1,0 +1,13 @@
+/* bleu-noir */
+
+body[data-ac-activated="bleu-noir"] .visualizer h2 {
+    color: white;
+}
+
+body[data-ac-activated="bleu-noir"] .visualizer span {
+    color: white;
+}
+
+body[data-ac-activated="bleu-noir"] .visualizer-subtitle {
+    color: white;
+}
