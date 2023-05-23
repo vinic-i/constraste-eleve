@@ -8,7 +8,7 @@ import { useState } from 'react';
 import Footer from './components/Footer';
 
 function App() {
-  const [contrasteEleve, setContrasteEleve] = useState(false)
+  const [contrasteEleve, setContrasteEleve] = useState(0)
   const handleContrasteEleve = (v) => {
     setContrasteEleve(v)
   }
@@ -21,7 +21,7 @@ function App() {
           <ContrasteEleve hangleContrasteEleve={handleContrasteEleve} />
         </div>
       </div>
-      <Footer />
+      <Footer contrasteEleve={contrasteEleve} />
     </>
   );
 }

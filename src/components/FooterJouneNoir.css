@@ -1,0 +1,149 @@
+.grow {
+    transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+/* JOUNE-NOIR */
+
+body[data-ac-activated="joune-noir"] .mainFooter {
+    border-top: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] ul>li>a {
+    color: white;
+}
+
+body[data-ac-activated="joune-noir"] ul>li>a:hover {
+    border-bottom: 1px solid yellow;
+    color: yellow;
+}
+
+body[data-ac-activated="joune-noir"] footer {
+    background-color: black;
+}
+
+body[data-ac-activated="joune-noir"] .footerSample {
+    border: 1px solid white;
+    padding: 3px;
+}
+
+body[data-ac-activated="joune-noir"] .footerSample span {
+    color: white;
+}
+
+body[data-ac-activated="joune-noir"] .footerSample-for {
+    background-color: black;
+    color: yellow !important;
+    border: 1px solid yellow;
+}
+
+body[data-ac-activated="joune-noir"] .footerSample-for:hover {
+    background-color: black;
+    color: white !important;
+    border: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] .footerSample .footerSample-for:before {
+    border-left-color: yellow;
+}
+
+body[data-ac-activated="joune-noir"] .footerSample .footerSample-for:hover:before {
+    border-left-color: white;
+}
+
+body[data-ac-activated="joune-noir"] .footerSample .footerSample-for:after {
+    border-left-color: black;
+}
+
+body[data-ac-activated="joune-noir"] .footerContact-joinUs {
+    background-color: black;
+    color: yellow !important;
+    border: 1px solid yellow;
+}
+
+body[data-ac-activated="joune-noir"] .footerContact-joinUs:hover {
+    background-color: black;
+    color: white !important;
+    border: 1px solid white;
+}
+
+
+body[data-ac-activated="joune-noir"] .footer-careersButton {
+    background-color: yellow;
+    color: black !important;
+}
+
+body[data-ac-activated="joune-noir"] .footer-careersButton:hover {
+    background-color: white;
+    color: black !important;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-proSpace {
+    border: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-proSpace a {
+    background-color: black;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-proSpace .span-1 {
+    color: yellow;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-proSpace .span-2 {
+    color: white;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-clientAccess {
+    border: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-clientAccess a {
+    background-color: black;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-clientAccess .span-1 {
+    color: yellow;
+}
+
+body[data-ac-activated="joune-noir"] .footerAccess-clientAccess .span-2 {
+    color: white;
+}
+
+body[data-ac-activated="joune-noir"] .footerContact-newsletter {
+    background-color: black;
+    border: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] .footerContact-newsletter span {
+    color: white;
+}
+
+body[data-ac-activated="joune-noir"] #js-newsletterForm input {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] #js-newsletterForm input:hover {
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+body[data-ac-activated="joune-noir"] #js-newsletterForm button {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] .footer-aboutButton {
+    background-color: black;
+    border: 1px solid white;
+}
+
+body[data-ac-activated="joune-noir"] .footer-aboutButton span {
+    color: white;
+}

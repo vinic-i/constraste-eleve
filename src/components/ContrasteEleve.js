@@ -6,31 +6,31 @@ const ContrasteEleve = ({ hangleContrasteEleve }) => {
     document.body.className = '';
     document.body.classList.remove('bg-black');
     document.body.removeAttribute('data-ac-activated');
-    hangleContrasteEleve(false)
+    hangleContrasteEleve(0)
   }
   const setJouneNoir = () => {
     document.body.className = '';
     document.body.classList.add('bg-black');
     document.body.setAttribute('data-ac-activated', 'joune-noir');
-    hangleContrasteEleve(true)
+    hangleContrasteEleve(1)
   }
   const setBlancBleu = () => {
     document.body.className = '';
     document.body.classList.add('bg-white');
     document.body.setAttribute('data-ac-activated', 'blanc-bleu');
-    hangleContrasteEleve(true)
+    hangleContrasteEleve(2)
   }
   const setJouneBlue = () => {
     document.body.className = '';
     document.body.classList.add('bg-blue');
     document.body.setAttribute('data-ac-activated', 'joune-bleu');
-    hangleContrasteEleve(true)
+    hangleContrasteEleve(3)
   }
   const setBlueNoir = () => {
     document.body.className = '';
     document.body.classList.add('bg-black');
     document.body.setAttribute('data-ac-activated', 'bleu-noir');
-    hangleContrasteEleve(true)
+    hangleContrasteEleve(4)
   }
   return (
     <div className='contrasteContainer'>
@@ -43,10 +43,10 @@ const ContrasteEleve = ({ hangleContrasteEleve }) => {
       <button
         onClick={setBlancBleu}
         className='blancBleu grow'>A</button>
-        <button
+      <button
         onClick={setJouneBlue}
         className='jouneBleu grow'>A</button>
-        <button
+      <button
         onClick={setBlueNoir}
         className='bleuNoir grow'>A</button>
     </div>
