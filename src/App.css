@@ -1,5 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/gotham');
 
+* {
+    font-family: 'Gotham Light', sans-serif;
+
+}
+
 .benefit p {
     color: #3d3d3d;
     line-height: 1.45;
@@ -9,11 +14,4 @@
 .benefits-cta {
     font-weight: 500;
     font-size: 14px;
-}
-
-html,
-body {
-    font-family: 'Gotham', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 300
 }

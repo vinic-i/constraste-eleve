@@ -1,0 +1,13 @@
+/* joune-bleu */
+
+body[data-ac-activated="joune-bleu"] .visualizer h2 {
+    color: white;
+}
+
+body[data-ac-activated="joune-bleu"] .visualizer span {
+    color: white;
+}
+
+body[data-ac-activated="joune-bleu"] .visualizer-subtitle {
+    color: white;
+}

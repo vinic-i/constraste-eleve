@@ -7,10 +7,12 @@ import './VisualizerBleuNoir.css'
 const Visualizer = ({ contrasteEleve }) => {
     const styles = {
         backgroundImage: contrasteEleve ? "url('./visualizer/normal-bw.png')" : "url('./visualizer/normal.png')",
+    }
+    const sectionStyle = {
         zIndex: -1
     }
     return (
-        <section class="visualizer">
+        <section class="visualizer" style={sectionStyle}>
             <div class="container">
                 <h2 class="line_through_title visualizer-title">Décorateur virtuel Mirage</h2>
                 <div class="subtitle visualizer-subtitle">Visualisez votre plancher de bois franc de rêve <nobr>en 3 étapes!</nobr></div>

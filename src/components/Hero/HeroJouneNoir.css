@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+    #home_header_354548235313909637c1e95d2e54086e {
+        background-image: url(https://media.planchersmirage.com/webfolder_download/520879775b61d3b50a8ac497f3d19924/normal/9e7640de1fcd16e5e620ac271c12942501a0121d/normal.jpg) !important;
+    }
+}
+
+/* JOUNE-NOIR */
+#heroButton {
+    color: #ffffff;
+    background: rgba(52, 52, 52, 100);
+    padding: 20px;
+}
+
+body[data-ac-activated="joune-noir"] #heroButton {
+    background-color: yellow;
+    color: black !important;
+}
+
+body[data-ac-activated="joune-noir"] #heroButton:hover {
+    background-color: white;
+}
