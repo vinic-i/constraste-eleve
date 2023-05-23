@@ -14,7 +14,7 @@ const Footer = ({ contrasteEleve }) => {
                         <div className="footerAccess">
                             <div className="footerAccess-proSpace">
                                 <a href="https://www.planchersmirage.com/pro/fr/">
-                                    <img className="footerAccess-image" src={contrasteEleve == 1 || contrasteEleve == 3 || contrasteEleve == 4 ? './btn_icon_pro-negative.png' : './btn_icon_pro.png'} alt="Espace Pro" />
+                                    <img className="footerAccess-image" src={contrasteEleve === 1 || contrasteEleve === 3 || contrasteEleve === 4 ? './footer/btn_icon_pro-negative.png' : './footer/btn_icon_pro.png'} alt="Espace Pro" />
                                     <p className="footerAccess-title">
                                         <span className='span-1'>Espace</span><br></br>
                                         <span className="span-2">Pro</span>
@@ -24,7 +24,7 @@ const Footer = ({ contrasteEleve }) => {
                             </div>
                             <div className="footerAccess-clientAccess">
                                 <a href="https://boaprod365.operations.dynamics.com/?cmp=boa">
-                                    <img className="footerAccess-image" src={contrasteEleve == 1 || contrasteEleve == 3 || contrasteEleve == 4 ? './btn_icon_extranet-negative.png' : './btn_icon_extranet.png'} alt="Accès Client" />
+                                    <img className="footerAccess-image" src={contrasteEleve === 1 || contrasteEleve === 3 || contrasteEleve === 4 ? './footer/btn_icon_extranet-negative.png' : './footer/btn_icon_extranet.png'} alt="Accès Client" />
                                     <p className="footerAccess-title">
                                         <span className='span-1'>Accès</span><br></br>
                                         <span className="span-2">Client</span>
@@ -47,7 +47,7 @@ const Footer = ({ contrasteEleve }) => {
                         </nav>
                         <div className="footerSample">
                             <a href="https://www.planchersmirage.com/fr/echantillons/">
-                                <img className="footerSamplesNegative" src={contrasteEleve ? './footer_cta_samples-bw-nb.png' : './footer_cta_samples.png'} alt="échantillons essences et teintes" />
+                                <img className="footerSamplesNegative" src={contrasteEleve ? './footer/footer_cta_samples-bw-nb.png' : './footer/footer_cta_samples.png'} alt="échantillons essences et teintes" />
                                 <span className="footerSample-orderSample">Obtenez jusqu'à<br></br>4 échantillons</span>
                                 <span className="footerSample-for">GRATUITEMENT</span>
                             </a>
@@ -56,7 +56,7 @@ const Footer = ({ contrasteEleve }) => {
                             <div className="footerContact-newsletter">
                                 <div className="newsletter-titleContainer">
                                     <span>S'abonner à<br />l'infolettre Mirage</span>
-                                    <img src={contrasteEleve == 1 || contrasteEleve == 3 || contrasteEleve == 4 ? './footer_newsletter-negative.png' : './footer_newsletter.png'} alt="S'abonner à<br>l'infolettre Mirage" />
+                                    <img src={contrasteEleve === 1 || contrasteEleve === 3 || contrasteEleve === 4 ? './footer/footer_newsletter-negative.png' : './footer/footer_newsletter.png'} alt="S'abonner à<br>l'infolettre Mirage" />
                                 </div>
 
                                 <form id="js-newsletterForm" className="js-newsletterForm" action="/newsletter" method="POST">
@@ -72,7 +72,7 @@ const Footer = ({ contrasteEleve }) => {
                         </div>
                         <div className="footer-corpoColumn">
                             <a className="footer-aboutButton" href="https://www.planchersmirage.com/fr/corpo/">
-                                <img src={contrasteEleve ? './logo-mirage-corpo-white-bw.png' : './logo-mirage-corpo-white.png'} alt="Mirage" />
+                                <img src={contrasteEleve ? './footer/logo-mirage-corpo-white-bw.png' : './footer/logo-mirage-corpo-white.png'} alt="Mirage" />
                                 <span>À propos</span>
                             </a><a className="footer-careersButton" href="https://www.planchersmirage.com/fr/corpo/#carrieres">Carrières</a> </div>
                     </div>

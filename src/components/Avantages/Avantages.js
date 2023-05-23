@@ -1,17 +1,4 @@
-import React, { useState } from 'react'
 import './Avantages.css'
-import Img1 from '../altoContraste/voted-no1.png'
-import Img1Ac from '../altoContraste/voted-no1-ac.png'
-import Img2 from '../altoContraste/most-wear-resistant.png'
-import Img2Ac from '../altoContraste/most-wear-resistant-ac.png'
-import Img3 from '../altoContraste/hypoallergenic.png'
-import Img3Ac from '../altoContraste/hypoallergenic-ac.png'
-import Img4 from '../altoContraste/more-than-1400.png'
-import Img4Ac from '../altoContraste/more-than-1400-ac.png'
-import Img5 from '../altoContraste/best-choice.png'
-import Img5Ac from '../altoContraste/best-choice-ac.png'
-import Img6 from '../altoContraste/made_in_quebec.png'
-import Img6Ac from '../altoContraste/made_in_quebec-ac.png'
 
 const Avantages = ({ contrasteEleve }) => {
     console.log(contrasteEleve)
@@ -22,27 +9,27 @@ const Avantages = ({ contrasteEleve }) => {
                 Les avantages Mirage</h2>
             <div className="benefitsList">
                 <div className="benefit">
-                    <img src={!contrasteEleve ? Img1 : Img1Ac} alt=""></img>
+                    <img src={!contrasteEleve ? './avantages/voted-no1.png' : './avantages/voted-no1-bw.png'} alt=""></img>
                     <p>Proclamé numéro 1 en qualité par les détaillants de recouvrement de plancher nord-américains</p>
                 </div>
                 <div className="benefit">
-                    <img src={!contrasteEleve ? Img2 : Img2Ac} alt=""></img>
+                    <img src={!contrasteEleve ? './avantages/most-wear-resistant.png' : './avantages/most-wear-resistant-bw.png'} alt=""></img>
                     <p> La meilleure résistance à l'usure dans l'industrie du plancher de bois franc</p>
                 </div>
                 <div className="benefit">
-                    <img src={!contrasteEleve ? Img3 : Img3Ac} alt=""></img>
+                    <img src={!contrasteEleve ? './avantages/hypoallergenic.png' : './avantages/hypoallergenic-bw.png'} alt=""></img>
                     <p>Fini hypoallergénique pour un environnement sain</p>
                 </div>
                 <div className="benefit">
-                    <img src={!contrasteEleve ? Img4 : Img4Ac} alt=""></img>
+                    <img src={!contrasteEleve ? './avantages/more-than-1400.png' : './avantages/more-than-1400-bw.png'} alt=""></img>
                     <p>La plus grande combinaison de couleurs, largeurs, essences et lustres</p>
                 </div>
                 <div className="benefit">
-                    <img src={!contrasteEleve ? Img5 : Img5Ac} alt=""></img>
+                    <img src={!contrasteEleve ? './avantages/best-choice.png' : './avantages/best-choice-bw.png'} alt=""></img>
                     <p> Le meilleur choix pour l'environnement </p>
                 </div>
                 <div className="benefit">
-                    <img src={!contrasteEleve ? Img6 : Img6Ac} alt=""></img>
+                    <img src={!contrasteEleve ? './avantages/made_in_quebec.png' : './avantages/made_in_quebec-bw.png'} alt=""></img>
                     <p>Fièrement Québécois</p>
                 </div>
             </div>
