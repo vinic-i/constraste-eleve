@@ -9,20 +9,11 @@ const Hero = ({ contrasteEleve }) => {
         zIndex: -1,
         backgroundImage: contrasteEleve ? "url('./visualizer/normal-bw.png')" : "url('./visualizer/normal.png')"
     }
-    const textsCtaStyle = {
-        color: "#ffffff",
-        background: 'rgba( 52, 52, 52, 100 )'
-    }
     const positionRelative = {
         position: 'relative'
     }
     return (
         <div style={positionRelative}>
-            <div style={positionRelative}>
-                <a class="ctaMaintenance" href="https://www.planchersmirage.com/fr/abc-du-plancher/nettoyer-votre-plancher/">
-                    <img src="https://media.planchersmirage.com/theme/_common/images/cta-maintenance-fr/733f1ba3c88e4e046fa83699c795506e6a00a821/cta-maintenance-fr.png" alt="" />
-                </a>
-            </div>
             <article class="home_header_slide" style={homeHeaderSlideStyle} id="home_header_354548235313909637c1e95d2e54086e">
                 <div class="container">
                     <div class="texts texts-white">
